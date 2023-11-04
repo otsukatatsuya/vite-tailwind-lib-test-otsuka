@@ -1,0 +1,21 @@
+.root {
+  @apply otsuka-text-white otsuka-px-4 otsuka-py-3 otsuka-rounded otsuka-font-bold otsuka-uppercase otsuka-text-sm otsuka-outline-none otsuka-transition otsuka-duration-200;
+}
+.primary {
+  @apply otsuka-bg-blue-500;
+}
+.primary:hover {
+  @apply otsuka-bg-blue-700;
+}
+.secondary {
+  @apply otsuka-bg-gray-500;
+}
+.secondary:hover {
+  @apply otsuka-bg-gray-700;
+}
+.tertiary {
+  @apply otsuka-bg-red-500;
+}
+.tertiary:hover {
+  @apply otsuka-bg-red-700;
+}
