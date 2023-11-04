@@ -1,5 +1,5 @@
 .root {
-  @apply otsuka-text-white otsuka-px-4 otsuka-py-3 otsuka-rounded otsuka-font-bold otsuka-uppercase otsuka-text-sm otsuka-outline-none otsuka-transition otsuka-duration-200;
+  @apply otsuka-text-white otsuka-px-4 otsuka-py-3 otsuka-rounded otsuka-font-bold otsuka-uppercase otsuka-text-sm otsuka-outline-none otsuka-transition otsuka-duration-200 otsuka-border-none;
 }
 .primary {
   @apply otsuka-bg-blue-500;
