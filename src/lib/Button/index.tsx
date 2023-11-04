@@ -2,7 +2,7 @@ import { FC, ButtonHTMLAttributes } from "react";
 import cn from "clsx";
 import styles from "./index.module.css";
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "tertiary";
 }
 

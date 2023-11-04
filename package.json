@@ -1,6 +1,18 @@
 {
   "name": "vite-tailwind-lib-test-otsuka",
-  "private": true,
+  "description": "テスト用Uiライブラリ",
+  "author": "Otsuka",
+  "license": "MIT",
+  "files": ["dist"],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
