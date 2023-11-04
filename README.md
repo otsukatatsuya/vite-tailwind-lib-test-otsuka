@@ -12,6 +12,7 @@ npm install vite-tailwind-lib-test-otsuka
 
 ```tsx
 import { Button } from 'vite-tailwind-lib-test-otsuka'
+import 'vite-tailwind-lib-test-otsuka/dist/style.css'
 
 const App = () => {
   return (

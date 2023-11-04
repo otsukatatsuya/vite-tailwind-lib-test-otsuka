@@ -6,7 +6,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "tertiary";
 }
 
-const Button: FC<ButtonProps> = ({
+export const Button: FC<ButtonProps> = ({
   variant = "primary",
   children,
   className,
@@ -20,4 +20,4 @@ const Button: FC<ButtonProps> = ({
   );
 };
 
-export default Button;
+
